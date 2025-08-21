@@ -230,7 +230,7 @@ cat <<-EOF
 	[Interface]
 	PrivateKey = ${wg_private_key}
 	#PublicKey = ${wg_public_key}
-	Address = ${address_ipv4}, ${address_ipv6}
+	Address = ${address_ipv4}/32, ${address_ipv6}/128
 	DNS = 1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001
 	MTU = 1280
 
